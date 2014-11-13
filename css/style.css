@@ -1,7 +1,10 @@
 @charset "utf-8";
 
-/* fonts import */
-@import url();
+/* fonts */
+@font-face {font-family: Haymaker; src: url(../fonts/AA-Haymaker.ttf);}
+@font-face {font-family: HeliosCondBlack; src: url(../fonts/HeliosCondBlack.otf);}
+@font-face {font-family: HeliosCondC; src: url(../fonts/HeliosCondC.otf);}
+
 
 /* reset by medic */
 * {padding:0; margin:0;}
@@ -14,4 +17,11 @@ ul {list-style: none;}
 body {background: #000;}
 
 /* wrapper */
-.wrapper {background: #fff;}
+.wrapper {background: #fff; width: 1200px; margin: 0 auto; font-family: "HeliosCondC", sans-serif; font-size: 14px; color: #fff;}
+
+/* header */
+header {width: 100%; background: #fff;}
+	.logo {display: block; position: relative; float: left; background: #fff;}
+		.logo a {font-family: "Haymaker", sans-serif; font-size: 30px; text-decoration: none;}
+	.social {display: block; position: relative; float: left;}
+	.search {display: block; position: relative; float: right;}
