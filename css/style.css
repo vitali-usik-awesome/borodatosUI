@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 /* fonts */
-@font-face {font-family: Haymaker; src: url(../fonts/AA-Haymaker.ttf);}
 @font-face {font-family: HeliosCondBlack; src: url(../fonts/HeliosCondBlack.otf);}
 @font-face {font-family: HeliosCondC; src: url(../fonts/HeliosCondC.otf);}
 
@@ -14,14 +13,40 @@ ul {list-style: none;}
 .hidden {display: none;}
 .clr:after {display:none; position:relative; content:' '; color:transparent; font-size:0; line-height:0; clear:both;}
 
-body {background: #000;}
+body {background: #fff;font-family: "HeliosCondC", sans-serif; font-size: 10px;}
 
 /* wrapper */
-.wrapper {background: #fff; width: 1200px; margin: 0 auto; font-family: "HeliosCondC", sans-serif; font-size: 14px; color: #fff;}
+.wrapper {max-width: 1200px; margin: 0 auto;}
 
 /* header */
-header {width: 100%; background: #fff;}
-	.logo {display: block; position: relative; float: left; background: #fff;}
-		.logo a {font-family: "Haymaker", sans-serif; font-size: 30px; text-decoration: none;}
-	.social {display: block; position: relative; float: left;}
-	.search {display: block; position: relative; float: right;}
+header {width: 100%;}
+	.logo {display: block; position: relative; float: left; max-width: 37em; width: 100%; margin: 0.5em 18em 0.5em 4.5em;}
+		.logo a {max-width: 100%; height: auto;}
+		.logo img {max-width: 100%; height: auto;}
+	.social {display: block; position: relative; float: left; margin-top: 5em;}
+		.social li {display: inline-block; margin-right: 1em;}
+		.social li:last-child {margin-right: 0;}
+		.social li a {padding: 0 19px 19px 0;}
+		.social .vk {background: url(../img/social_buttons.png) 0 0 no-repeat;}
+		.social .fb {background: url(../img/social_buttons.png) -31px 0 no-repeat;}
+		.social .tw {background: url(../img/social_buttons.png) -63px 0 no-repeat;}
+
+	.search {display: block; position: relative; float: right; margin: 5em 2.5em 0 0;}
+		.search input {height: 19px; line-height: 19px; font-size: 15px; border: 1px solid #c2c2c2; padding-left: 10px; font-family: "HeliosCondC", sans-serif; width: 160px;}
+
+/* nav */
+
+/* media */
+@media screen and (max-width: 1024px) {
+	.logo {margin: 0.5em 8em 0.5em 0.5em;}
+}
+
+@media screen and (max-width: 800px) {
+	.logo {margin: 0 auto;}
+	.social {display: none;}
+	.search {display: none;}
+}
+
+
+
+
