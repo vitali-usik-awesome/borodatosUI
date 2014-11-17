@@ -56,7 +56,6 @@ header {width: 100%;}
 	.popular_wrapper li {display: block; position: relative; float: left; overflow: hidden;/}
 	.popular_wrapper li a {width: 100%; text-decoration: none; color: #fff;}
 	.popular_wrapper li a:hover {opacity: 0.7;}
-	.popular_wrapper li a img {z-index: 1; max-width: 100%; height: auto;}
 	.popular_wrapper li a h3 {position: absolute; bottom: 0; left: 0; z-index: 2; font-size: 14px; line-height: 14px; font-family: "HeliosCondBlack", sans-serif; text-shadow: 1px 1px 2px #000; padding: 0 10px 10px 10px;}
 
 	.thumbs_big_wrapper {padding-bottom: 0.5%;}
@@ -67,6 +66,11 @@ header {width: 100%;}
 		.thumbs_small_wrapper li {margin-right: 0.5%; width: 33%; height: 150px;}
 		.thumbs_small_wrapper h2 {margin-top: -3.125em; font-size: 0.9em;}
 
+	.tbw_1 {background: url(../img/02.jpg) 50% 50% no-repeat;}
+	.tbw_2 {background: url(../img/03.jpg) 50% 50% no-repeat;}
+	.tbw_3 {background: url(../img/01.jpg) 50% 50% no-repeat;}
+	.tbw_4 {background: url(../img/04.jpg) 50% 50% no-repeat;}
+	.tbw_5 {background: url(../img/09.jpg) 50% 50% no-repeat;}
 
 
 /* media */
