@@ -49,6 +49,11 @@ header {width: 100%;}
 /* content */
 .content {width: 100%;}
 
+/* main_banner */
+.main_banner {max-width: 728px; min-width: 480px; width: 100%; margin: 0 auto; padding-top: 20px;}
+	.main_banner a {max-width: 100%;}
+	.main_banner a img {max-width: 100%;}
+
 /* popular_wrapper */
 .popular_wrapper {width: 100%; margin-top: 2em;}
 	.popular_wrapper ul {text-align: center; margin: 0 auto; width: 100%; height: auto; overflow: hidden;}
@@ -103,6 +108,7 @@ header {width: 100%;}
     	nav ul {display: none; height: auto;}  
     	nav a#pull {display: block; background-color: #c2c2c2; width: 100%; position: relative;}  
     	nav a#pull:after {content:""; background: url('../img/nav-icon.png') no-repeat; width: 30px; height: 30px; display: inline-block; position: absolute; right: 15px; top: 10px;}
+    .main_banner {display: none;}
     .popular_wrapper li {width: 100%; margin-right: 0; }
 		 .thumbs_big_wrapper li {margin-bottom: 0.5%; height: 100px;}
 		.thumbs_small_wrapper li {margin-bottom: 0.5%;} 
