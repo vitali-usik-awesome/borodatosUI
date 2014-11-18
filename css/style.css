@@ -66,11 +66,11 @@ header {width: 100%;}
 		.thumbs_small_wrapper li {margin-right: 0.5%; width: 33%; height: 150px;}
 		.thumbs_small_wrapper h2 {margin-top: -3.125em; font-size: 0.9em;}
 
-	.tbw_1 {background: url(../img/02.jpg) 50% 50% no-repeat;}
-	.tbw_2 {background: url(../img/03.jpg) 50% 50% no-repeat;}
-	.tbw_3 {background: url(../img/01.jpg) 50% 50% no-repeat;}
-	.tbw_4 {background: url(../img/04.jpg) 50% 50% no-repeat;}
-	.tbw_5 {background: url(../img/09.jpg) 50% 50% no-repeat;}
+	.tbw_1 {background: url(../media/02.jpg) 50% 50% no-repeat;}
+	.tbw_2 {background: url(../media/03.jpg) 50% 50% no-repeat;}
+	.tbw_3 {background: url(../media/01.jpg) 50% 50% no-repeat;}
+	.tbw_4 {background: url(../media/04.jpg) 50% 50% no-repeat;}
+	.tbw_5 {background: url(../media/09.jpg) 50% 50% no-repeat;}
 
 
 /* media */
