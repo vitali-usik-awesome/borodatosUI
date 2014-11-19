@@ -78,8 +78,8 @@ header {width: 100%;}
 		.section_head_name p {text-align: center;}
 		.section_head_name a {font-family: "HeliosCondBlack", sans-serif; font-size: 2em; text-transform: uppercase; line-height: 50px; text-align: center; text-decoration: none; color: #fff; cursor: pointer; opacity: 1;}
 		.section_head_name a:hover {text-decoration: underline;}
-	.section_wrapper {display: block; position: relative; width: 100%; overflow: hidden; padding-top: 1em; max-height: 445px;}
-		.column {display: block; position: relative; float: left; overflow: hidden; margin-right: 0.5%;}
+	.section_wrapper {display: block; position: relative; width: 100%; overflow: hidden; padding-top: 1em; /*max-height: 445px;*/}
+		.column {display: block; position: relative; float: left; overflow: hidden; width: 24.625%; margin-right: 0.5%;}
 		.column:last-child {margin-right: 0;}
 		.column a {display: block; position: relative; overflow: hidden; width: 100%; text-decoration: none; color: #fff;}
 		.column a:hover {opacity: 0.7;}
@@ -88,8 +88,6 @@ header {width: 100%;}
 			.thumb_item {position: absolute; top: 0; left: 0; margin: 10px 0 0 10px;}
 		.column a h3 {font-size: 14px; line-height: 14px; font-family: "HeliosCondBlack", sans-serif; text-shadow: 1px 1px 2px #000;}
 		.column a h4 {display: none; font-size: 14px; line-height: 14px; font-family: "HeliosCondBlack", sans-serif; text-shadow: 1px 1px 2px #000; padding-left: 20px; background: url(../img/eye.png) 0 50% no-repeat; text-align: left; margin: 10px 0 0 10px;}
-
-		.single {width: 24.625%;}
 			.item {overflow: hidden;}
 			.two_line {max-height: 219px; margin-bottom: 1.5%;}
 			.two_line:last-child {margin-bottom: 0;}
@@ -122,9 +120,11 @@ header {width: 100%;}
     	nav a#pull {display: block; background-color: #c2c2c2; width: 100%; position: relative;}  
     	nav a#pull:after {content:""; background: url('../img/nav-icon.png') no-repeat; width: 30px; height: 30px; display: inline-block; position: absolute; right: 15px; top: 10px;}
     .main_banner {display: none;}
-    .popular_wrapper li, .popular_wrapper2 li {width: 100%; margin-right: 0; }
-		.thumbs_big_wrapper li, .thumbs_big_wrapper2 li {margin-bottom: 0.5%;}
-		.thumbs_small_wrapper li, .thumbs_small_wrapper2 li {margin-bottom: 0.5%;} 
+    .popular_wrapper li {width: 100%; margin-right: 0;}
+		.thumbs_big_wrapper li {margin-bottom: 0.5%;}
+		.thumbs_small_wrapper li {margin-bottom: 0.5%;}
+	.column {width: 49.5%;}
+	.column:nth-child(even) {margin-right: 0.5%;}
 }
 
 @media only screen and (max-width: 320px) {  
