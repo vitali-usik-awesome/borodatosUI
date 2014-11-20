@@ -73,7 +73,10 @@ header {width: 100%;}
 
 /* content_section_wrapper */
 .content_section_wrapper {width: 100%; padding-top: 4em; padding-bottom: 4em;}
-	.section_header {display: block; position: relative; max-width: 1200px; background: url(../media/comics_paralax2.jpg) no-repeat center center fixed; background-size: cover; height: 5em;}
+	.comics_header {background: url(../media/comics_paralax2.jpg) no-repeat center center fixed;}
+	.games_header {background: url(../media/games_paralax.jpg) no-repeat center center fixed;}
+	.news_header {background: url(../media/news_paralax.jpg) no-repeat center center fixed;}
+	.section_header {display: block; position: relative; max-width: 1200px; background-size: cover; height: 5em;}
 		.section_head_name {width: 14em; background-color: #000; opacity: 0.8;}
 		.section_head_name p {text-align: center;}
 		.section_head_name a {font-family: "HeliosCondBlack", sans-serif; font-size: 2em; text-transform: uppercase; line-height: 50px; text-align: center; text-decoration: none; color: #fff; cursor: pointer; opacity: 1;}
@@ -92,6 +95,14 @@ header {width: 100%;}
 			.two_line {max-height: 219px; margin-bottom: 1.5%;}
 			.two_line:last-child {margin-bottom: 0;}
 
+		.news_column {display: block; position: relative; float: left; width: 33%; margin-right: 0.5%;}
+		.news_column:last-child {margin-right: 0;}
+			.news_item {display: block; position: relative; overflow: hidden;}
+				.news_img {display: block; position: relative; float: left; width: 38%; margin-right: 0.5%;}
+					.news_img img {max-width: 100%;}
+				.news_content {display: block; position: relative; float: right; width: 61.5%;}
+					.news_content h5 {font-family: "HeliosCondBlack", sans-serif; font-size: 14px; line-height: 14px;}
+					.news_content p {font-size: 13px; line-height: 13px;}
 
 
 /* media */
