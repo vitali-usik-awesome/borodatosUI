@@ -76,12 +76,13 @@ header {width: 100%;}
 	.comics_header {background: url(../media/comics_paralax2.jpg) no-repeat center center fixed;}
 	.games_header {background: url(../media/games_paralax.jpg) no-repeat center center fixed;}
 	.news_header {background: url(../media/news_paralax.jpg) no-repeat center center fixed;}
+	.afisha_header {background: url(../media/afisha_paralax.jpg) no-repeat center center fixed;}
 	.section_header {display: block; position: relative; max-width: 1200px; background-size: cover; height: 5em;}
 		.section_head_name {width: 14em; background-color: #000; opacity: 0.8;}
 		.section_head_name p {text-align: center;}
 		.section_head_name a {font-family: "HeliosCondBlack", sans-serif; font-size: 2em; text-transform: uppercase; line-height: 50px; text-align: center; text-decoration: none; color: #fff; cursor: pointer; opacity: 1;}
 		.section_head_name a:hover {text-decoration: underline;}
-	.section_wrapper {display: block; position: relative; width: 100%; overflow: hidden; padding-top: 1em; /*max-height: 445px;*/}
+	.section_wrapper {display: block; position: relative; width: 100%; overflow: hidden; padding-top: 1em;}
 		.column {display: block; position: relative; float: left; overflow: hidden; width: 24.625%; margin-right: 0.5%;}
 		.column:last-child {margin-right: 0;}
 		.column a {display: block; position: relative; overflow: hidden; width: 100%; text-decoration: none; color: #fff;}
@@ -103,6 +104,10 @@ header {width: 100%;}
 				.news_content {display: block; position: relative; float: right; width: 61.5%;}
 					.news_content h5 {font-family: "HeliosCondBlack", sans-serif; font-size: 14px; line-height: 14px;}
 					.news_content p {font-size: 13px; line-height: 13px;}
+
+		.afisha_item {display: block; position: relative; float: left; width: 16.25%; margin-right: 0.5%;}
+		.afisha_item:last-child {margin-right: 0;}
+			.afisha_item img {max-width: 100%;}
 
 
 /* media */
