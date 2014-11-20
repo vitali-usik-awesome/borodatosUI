@@ -72,7 +72,8 @@ header {width: 100%;}
 		.thumbs_small_wrapper h2 {margin-top: -3.125em; font-size: 0.9em;}
 
 /* content_section_wrapper */
-.content_section_wrapper {width: 100%; padding-top: 4em; padding-bottom: 4em;}
+.content_section_wrapper {padding-top: 4em;}
+.content_section_wrapper:last-child {padding-bottom: 4em;}
 	.comics_header {background: url(../media/comics_paralax2.jpg) no-repeat center center fixed;}
 	.games_header {background: url(../media/games_paralax.jpg) no-repeat center center fixed;}
 	.news_header {background: url(../media/news_paralax.jpg) no-repeat center center fixed;}
@@ -109,10 +110,30 @@ header {width: 100%;}
 		.afisha_item:last-child {margin-right: 0;}
 			.afisha_item img {max-width: 100%;}
 
+/* footer */
+footer {width: 100%; border-top: 1px solid #c2c2c2;}
+	.footer_wrapper {margin: 2em 0;}
+		.footer_column {display: block; position: relative; float: left; width: 19.6%; margin-right: 0.5%;}
+			.footer_column ul {font-family: "HeliosCondBlack", sans-serif; font-size: 16px; line-height: 17px; text-align: center; text-transform: uppercase;}
+			.footer_column li {margin-bottom: 1.5em;}
+			.footer_column ul a {color: #000; text-decoration: none;}
+			.footer_column ul a:hover {text-decoration: underline;}
+		.footer_column a {display: block; position: relative; width: 100%;}
+		.footer_column a img {max-width: 100%;}
+		.footer_social {display: block; position: relative; float: left; width: 19.6%;}
+			.footer_social li {display: inline-block; margin-right: 1em;}
+			.footer_social li:last-child {margin-right: 0;}
+			.footer_social li a {display: block; position: relative; width: 19px; height: 19px;}
+			.footer_social .vk {background: url(../img/social_buttons.png) 0 0 no-repeat;}
+			.footer_social .fb {background: url(../img/social_buttons.png) -31px 0 no-repeat;}
+			.footer_social .tw {background: url(../img/social_buttons.png) -63px 0 no-repeat;}
+
 
 /* media */
 @media screen and (max-width: 1024px) {
 	.logo {margin: 0.5em 8em 0.5em 0.5em;}
+	.footer_column ul {font-family: "HeliosCondBlack", sans-serif; font-size: 14px; line-height: 15px; text-align: center; text-transform: uppercase;}
+			.footer_column li {margin-bottom: 1em;}
 }
 
 @media screen and (max-width: 800px) {
@@ -135,6 +156,11 @@ header {width: 100%;}
 
     .afisha_item {width: 49.75%;}
     .afisha_item:nth-child(even) {margin-right: 0;}
+	
+	.footer_social {display: none;}
+	.footer_column {width: 24%; margin-right: 0.5%;}
+	.footer_column:last-child {margin-right: 0;}
+	
 }
 
 @media only screen and (max-width: 480px) {  
@@ -148,6 +174,9 @@ header {width: 100%;}
 		.thumbs_small_wrapper li {margin-bottom: 0.5%;}
 	.column {width: 49.5%;}
 	.column:nth-child(even) {margin-right: 0.5%;}
+
+	.footer_logo {display: none;}
+	.footer_column {width: 100%; margin-right: 0;}
 }
 
 @media only screen and (max-width: 320px) {  
