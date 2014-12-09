@@ -144,10 +144,15 @@ footer {width: 100%; border-top: 1px solid #c2c2c2;}
 	.article {display: block; position: relative; float: left; width: 75%; margin-right: 2%;}
 		.article h1 {font-family: "HeliosCondBlack", sans-serif; font-size: 3.6em; text-transform: uppercase;}
 		.article img {max-width: 100%;}
-		.article p {font-size: 1.2em; margin: 2em 0; color: #000;}
+		.article p {font-size: 1.4em; margin: 2em 0; color: #000;}
+		.article p b {font-family: "HeliosCondBlack", sans-serif;}
 		.article .article_info {font-size: 1.1em; margin: 0.5em 0; color: #494949;}
 		.article .article_info a {color: #494949; text-decoration: none;}
 		.article .article_info a:hover {text-decoration: underline;}
+		.article .article_tags {display: block; position: relative; margin-bottom: 2.9em;}
+		.article .article_tags li {display: inline-block; margin-right: 1em; font-size: 1.4em;}
+		.article .article_tags a {display: block; position: relative; color: #848484; text-decoration: none;}
+		.article .article_tags a:hover {text-decoration: underline;}
 
 	.sidebar {display: block; position: relative; float: left; width: 23%;}
 		.sidebar img {max-width: 100%;}
