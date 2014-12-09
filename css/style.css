@@ -138,6 +138,24 @@ footer {width: 100%; border-top: 1px solid #c2c2c2;}
 			.footer_social .tw:hover {background: url(../img/social_sprite.png) -59px -120px no-repeat;}
 			.footer_social .in:hover {background: url(../img/social_sprite.png) -59px -180px no-repeat;}
 
+/* styles for article page */
+/* article_wrapper */
+.article_wrapper {width: 100%; padding-top: 2em; overflow: hidden;}
+	.article {display: block; position: relative; float: left; width: 75%; margin-right: 2%;}
+		.article h1 {font-family: "HeliosCondBlack", sans-serif; font-size: 3.6em; text-transform: uppercase;}
+		.article img {max-width: 100%;}
+		.article p {font-size: 1.2em; margin: 2em 0; color: #000;}
+		.article .article_info {font-size: 1.1em; margin: 0.5em 0; color: #494949;}
+		.article .article_info a {color: #494949; text-decoration: none;}
+		.article .article_info a:hover {text-decoration: underline;}
+
+	.sidebar {display: block; position: relative; float: left; width: 23%;}
+		.sidebar img {max-width: 100%;}
+
+
+
+
+
 
 /* media */
 @media screen and (max-width: 1024px) {
